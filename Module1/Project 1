@@ -8,6 +8,7 @@
 <body>
     <h1> Welcome to my HTML Page </h1>
     <h3> Menu: </h3>
+
     <div id="menu">
         <a href = "#profile" > Basic Profile Information </a> <br>
         <a href = "#education" > Education Summary </a> <br>
@@ -73,16 +74,24 @@
 
         <h4> Work Experience </h4>
         <ul>
-            <li> Youth Christian Band Leader / Christian Missionary | The Disciples Band ; founded Immanuel Lutheran Church | Volunteer Work | Dec 2023 - Present </li>
+            <li> Youth Christian Band Leader / Christian Missionary | The Disciples Band est. Immanuel Lutheran Church | Volunteer Work | Dec 2023 - Present </li>
             <li> Media / Technical Team | Immanuel Lutheran Church | Hybrid | Jan 2023 - Present </li>
-            <li> Student Worker Technical Writing Assistant | St. John's University | Part-time| Feb 2023 - May 2023</li>
+            <li> Student Worker Technical Writing Assistant | St. John's University | Part-time | Feb 2023 - May 2023</li>
             <li> Fast Food Team Member | Shake Shack | Part-time | Feb 2022 - Aug 2022</li>
             <li> IT Internship Industry Scholars Program, Grant Associates | Bayside High School, Queens NY | Part-time | July 2021 - August 2021 </li>
         </ul>
 
-        <h4> Project's </h4>
+        <h4> Projects </h4>
         <ul>
-            <li> </li>
+            <li> VCRTS Software | Collaborative Group Work | Focused on Front-End Development using JavaFX/Swift</li>
+            <li> Fluff-Off! | Unity-made Idle Game | In Progress: Publishing on Steam | C++/C#, Blender: 3D Modeling </li>
+            <li> Movie Information API Website | Designed Front-End | Used external API | HTML, CSS, JavaScript, JSON</li>
+            <li> To-Do App | In Progress | HTML,CSS,JavaScript </li>
+            <li> The Disciples Band Website | In Progress | HTML,CSS,JavaScript </li>
+            <li> Belt Buckle Design | Blender | 3D Modeling </li>
+            <li> Bunny Escape | Website 2D Game | HTML, CSS, JavaScript </li>
+            <li> Medicine Studios | Website Made in WordPress </li>
+
         </ul>
 
      </div>
