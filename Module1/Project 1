@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html> 
+
+<head>
+    <title> Project 1</title>
+</head>
+
+<body>
+    <h1> Welcome to my HTML Page </h1>
+    <h3> Menu: </h3>
+    <div id="menu">
+        <a href = "#profile" > Basic Profile Information </a> <br>
+        <a href = "#education" > Education Summary </a> <br>
+        <a href = "#work" > Work Experience </a> <br>
+        <a href = "#programming" > Programming Skills </a> <br>
+        <a href = "#interest" > General Interests </a> <br>
+        <a href = "#song" > Favorite Song / Film / TV Show </a> <br>
+        <a href = "#website" > Favorite Website </a> <br>
+    </div>
+
+    <hr>
+
+    <!-- Basic Profile Information Section -->
+    <div id="profile">
+        <h2> Basic Profile Information</h2>
+       
+         <table>
+            <tr> 
+                <th> Name </th> 
+                <th> Major </th>
+                <th> Minor </th>
+            </tr>
+            <tr>
+                <td> Andrea Dass  |</td>
+                <td> Computer Science |</td>
+                <td> None </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Education Summary Section -->
+
+    <!-- Work Experience Section -->
+
+    <!-- Programming Skills Section -->
+
+    <!-- General Interests Section -->
+
+    <!-- Favorite Song / Film / TV Show Section -->
+
+    <!-- Favorite Website Section -->
+     
+
+</body>
+
+</html>
 
