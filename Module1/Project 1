@@ -98,12 +98,77 @@
      <hr>
 
     <!-- Programming Skills Section -->
+     <div id="programming">
+        <h2> <span style = "color:rgb(255, 0, 251)"> Programming Skills  </span> </h2>
+
+        <p> My Programming Skills focus mainly on front/back end development, and I
+            have trained my skills to be more focused on game development as well as
+            graphical designing
+        </p>
+
+        <h4> Skills list + Expereience : </h4>
+
+        <ul>
+            <li> Java: Interemediete/Expert level</li>
+            <li> HTML: Intermediete/Expert level </li>
+            <li> CSS: Intermediete/Expert level </li>
+            <li> JavaScript: Intermediete level </li>
+            <li> Python: Intermediete level </li>
+            <li> C++: Beginner level</li>
+            <li> JavaFX: Beginner/Intermediete level </li>
+            <li> C#: Beginner level </li>
+        </ul>
+
+     </div>
+     <hr>
 
     <!-- General Interests Section -->
+     <div id="interest">
+        <h2> <span style = "color:rgb(255, 0, 251)"> General Interests  </span> </h2>
+
+        <p> I like to play video games and play my guitar. I also like to watch shows a lot
+            and read books.
+        </p>
+
+     <hr>
 
     <!-- Favorite Song / Film / TV Show Section -->
+    <div id="song">
+        <h2> <span style = "color:rgb(255, 0, 251)"> Favorite Song, Film, & TV Show  </span> </h2>
+        <table>
+            <tr>
+                <th> Song </th>
+                <th> Film </th>
+                <th> TV Show </th>
+            </tr>
+            <tr>
+                <td> taylor swift</td>
+                <td> maze runenrs </td>
+                <td> friends </td>
+            </tr>
+            <tr>
+                <td> link </td>
+                <td> link </td>
+                <td> link </td>
+            </tr>
+        </table>
+        
+
+    </div>
+    <hr>
 
     <!-- Favorite Website Section -->
+     <div id="website">
+        <h2> <span style = "color:rgb(255, 0, 251)"> Favorite Website  </span> </h2>
+        <ul>
+            <li> <a href = "youtube.com"> Click me</a> </a> </li>
+        </ul>
+        <p> This is my favorite website because ... </p>
+        <p> This website is about ... </p>
+
+
+
+     </div>
      
 
 </body>
