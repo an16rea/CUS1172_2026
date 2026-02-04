@@ -3,28 +3,37 @@
 
 <head>
     <title> Project 1</title>
+    <link rel = "stylesheet" href = "style.css">
+
+    <style>
+        .highlight {
+            background-color: #f5f5f5;
+            padding: 8px;
+        }
+
+    </style>
 </head>
 
 <body>
     <h1> Welcome to my HTML Page </h1>
     <h3> Menu: </h3>
 
-    <div id="menu">
-        <a href = "#profile" > Basic Profile Information </a> <br>
-        <a href = "#education" > Education Summary </a> <br>
-        <a href = "#work" > Work Experience </a> <br>
-        <a href = "#programming" > Programming Skills </a> <br>
-        <a href = "#interest" > General Interests </a> <br>
-        <a href = "#song" > Favorite Song / Film / TV Show </a> <br>
-        <a href = "#website" > Favorite Website </a> <br>
-        <a href = "#projects" > My Projects in CUS 1172 </a>
+    <div id="menu" class = "card">
+        <a href = "#profile" class="section card" > Basic Profile Information </a> <br>
+        <a href = "#education" class="section card" > Education Summary </a> <br>
+        <a href = "#work" class="section card"> Work Experience </a> <br>
+        <a href = "#programming" class="section card" > Programming Skills </a> <br>
+        <a href = "#interest" class = "section card"> General Interests </a> <br>
+        <a href = "#song" class ="section card"> Favorite Song / Film / TV Show </a> <br>
+        <a href = "#website" class = "section card"> Favorite Website </a> <br>
+        <a href = "#projects" class="section card"> My Projects in CUS 1172 </a>
     </div>
 
     <hr>
 
     <!-- Basic Profile Information Section -->
     <div id="profile">
-        <h2> <span style = "color:rgb(255, 0, 251)">Basic Profile Information </span> </h2>
+        <h2> Basic Profile Information </h2>
 
         <img src = "ProfileImage.png" width = 200px height = 230px > 
         <br> <br>
@@ -55,7 +64,7 @@
 
     <!-- Education Summary Section -->
      <div id="education">
-        <h2> <span style = "color:rgb(255, 0, 251)">Education Summary </span> </h2>
+        <h2> >Education Summary </h2>
 
         <p> During my years in highschool (Bayside Highschool Queens, NY), I was part of our highschool's robotics team, 
             where I learned how to code, engineer, and 3d model. That is where my passion
@@ -79,7 +88,7 @@
 
     <!-- Work Experience Section -->
      <div id="work">
-        <h2> <span style = "color:rgb(255, 0, 251)">Work Experience / Internships  </span> </h2>
+        <h2> Work Experience / Internships </h2>
 
         <h4> Work Experience </h4>
         <ul>
@@ -108,7 +117,7 @@
 
     <!-- Programming Skills Section -->
      <div id="programming">
-        <h2> <span style = "color:rgb(255, 0, 251)"> Programming Skills  </span> </h2>
+        <h2> Programming Skills </h2>
 
         <p> My Programming Skills focus mainly on front/back end development, and I
             have trained my skills to be more focused on game development as well as
@@ -133,7 +142,7 @@
 
     <!-- General Interests Section -->
      <div id="interest">
-        <h2> <span style = "color:rgb(255, 0, 251)"> General Interests  </span> </h2>
+        <h2> General Interests </h2>
 
         <p> I like to play video games and play my guitar. I also like to watch shows a lot
             and read books. I don't really have much interests since I have focused mainly on school,
@@ -146,7 +155,7 @@
 
     <!-- Favorite Song / Film / TV Show Section -->
     <div id="song">
-        <h2> <span style = "color:rgb(255, 0, 251)"> Favorite Song, Film, & TV Show  </span> </h2>
+        <h2> Favorite Song, Film, & TV Show </h2>
 
         <h4> <span style = "color: rgb(15, 174, 26)" > Song: </span></h4>
         <p>My favorite song is "HOW DOES IT FEEL?" by The Kid Laroi</p>
@@ -169,7 +178,7 @@
 
     <!-- Favorite Website Section -->
      <div id="website">
-        <h2> <span style = "color:rgb(255, 0, 251)"> Favorite Website  </span> </h2>
+        <h2> Favorite Website </h2>
         <ul>
             <li> <a href = "https://www.w3schools.com" target="_blank" > w3schools.com</a> </li>
         </ul>
@@ -178,12 +187,10 @@
             you can learn everything with full examples on this website
         </p>
 
-
-
      </div>
      <hr> 
      <div id="projects">
-        <h2> <span style = "color:rgb(255, 0, 251)"> My Projects in this course </span> </h2>
+        <h2> My Projects in this course </h2>
         <ul>
             <li> <a href = "https://an16rea.github.io/CUS1172_2026/" target="_blank" > Project_1</a></li>
         </ul>
