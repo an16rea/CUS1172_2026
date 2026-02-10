@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(24, 28, 255);
+    background: rgb(254, 112, 136);
+    padding: 20px;
+    border-radius: 50px;
+    width: 500px;
+    margin: auto;
+    font-family: monospace;
+}
+
+.h2 {
+    font-family: "Monospace", Courier, Lucida;
+    text-align: center;
+    background: rgb(244, 222, 222);
+}
+
+.h3 {
+    font-family: "Monospace", Courier, Lucida;
+    text-align: center;
+    color: rgb(255, 12, 223);
+    background: rgb(244, 222, 222);
+}
+
+.h4 {
+    font-family: "Monospace", Courier, Lucida;
+    padding: 10px;
+    color: blue;
+    background-color: rgb(206, 235, 243);
+}
+
+p {
+    line-height: 1.6;
+    text-indent: 30px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+    padding: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+img {
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+video {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 12px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    margin-bottom: 6px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+table, th, td {
+    background-color: rgb(254, 112, 136);
+    color: white;
+    border: 2px solid;
+    padding: 10px;
+    margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+form {
+    background-color: lightblue;
+    padding: 5px;
+    width: 300px;
+    margin: auto;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.card {
+    font-family: "Monospace", Courier, Lucida;
+    background: rgb(254, 112, 136);
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#menu {
+    background-color: #fdd5d5;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#menu a {
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(254, 112, 136);
+    display: inline-block;
+}
+
+@media (max-width: 600px) {
+    #menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 90%;
+    }
+    body {
+        padding: 5px;
+    }
+}
+
+@media print {
+    body {
+        background-color: white;
+        color: black;
+        padding: 0;
+        font-size: 12pt;
+    }
+
+    #menu {
+        display: block;
+        background-color: white;
+    }
+
+    #menu a, .card {
+        width: 100%;
+        color: black;
+        background-color: lightgray;
+        border: 1px solid black;
+        margin: 5px 0;
+    }
+
+    img, video {
+        max-width: 100%;
+        height: auto;
+    }
+
+    h1, h2, h3, h4, p, table {
+        color: black;
+        background-color: transparent;
+    }
+
+    form {
+        width: 100%;
+        background-color: white;
+        padding: 5px;
+    }
+}
