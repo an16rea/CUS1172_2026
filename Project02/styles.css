@@ -1,0 +1,8 @@
+body {
+  background-color: hsl(270, 23%, 64%);
+}
+
+.completed-task {
+  text-decoration: line-through;
+  color: #999;
+}
